@@ -1,6 +1,3 @@
-[submodule "plugind/theme-vim"]
-	path = plugind/theme-vim
-	url = https://github.com/hardhackerlabs/theme-vim.git
 [submodule "plugins/theme-vim"]
 	path = plugins/theme-vim
 	url = https://github.com/hardhackerlabs/theme-vim.git
