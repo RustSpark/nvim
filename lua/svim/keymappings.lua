@@ -11,6 +11,7 @@ local mappings = {
 		{ "<leader>w", "<cmd>w!<cr>" },
 		{ "<leader>h", "<cmd>nohlsearch<cr>" },
 		{ "<leader>c", "<cmd>bd<cr>" },
+		{ "<leader>e", "<cmd>NvimTreeToggle<cr>" },
 	},
 	x = {
 		{ "<", "<gv" },

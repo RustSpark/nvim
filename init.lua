@@ -30,6 +30,7 @@ toggleterm.setup({
 	size = 20,
 	open_mapping = [[<c-\>]],
 	direction = "float",
+  shell = "pwsh.exe",
 	on_create = function(t)
     t:send("conda activate dev")
 	end,
