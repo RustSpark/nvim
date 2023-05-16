@@ -4,6 +4,11 @@ vim.g.maplocalleader = " "
 -- 配置模块导入环境
 vim.opt.rtp:append(vim.env.SVIM_BASE_DIR or debug.getinfo(1, "S").source:sub(2):match("(.*[/\\])"))
 
+local operate_module = require("svim.modules")
+_G.reload = operate_module.reload
+_G.require_safe = operate_module.require_safe
+_G.require_clean = operate_module.require_clean
+
 -- 加载设置
 require("svim.settings")
 
